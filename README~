@@ -1,5 +1,0 @@
-AnyKernel is a template for an update.zip that can apply any kernel to any ROM, regardless of ramdisk. - For LG-P500
-In:
-META-INF/ - dont' change anything in there!
-kernel/ - don't change anything in there, put your kernel with the original zImage!
-system/lib/modules - put kernel modules into there. delete tiwlan_drv.ko first!
