@@ -1,13 +1,16 @@
-AnyKernel is a template for an update.zip that can apply any kernel to any ROM, regardless of ramdisk. - For LG-P500
-Made by Koush 
+AnyKernel (Made by Koush) is a template for an update.zip that can apply any kernel to any ROM, regardless of ramdisk. - For LG-P500
+
 -How to use it?
-After clone into the git, you will have 3 folders:
-META-INF/ - dont' change anything in there!
-kernel/ - don't change anything in there, put your kernel with the original zImage!
-system/lib/modules - put kernel modules into there. delete tiwlan_drv.ko first!
+After clone into git, you will have 3 folders:
+META-INF/ 	   - dont' change anything in there!
+kernel/   	   - don't delete files in there, just replace your "zImage" file with the "zImage" in this folder!
+system/lib/modules - First, Delete all files and then grab your kernel modules into here!
+
 -What to do next?
-Compress 3 folders.
+Compress 3 folders as a zip file.
+
 -And then?
-You should sign the zip by using the dsixda kitchen or Some APK Signer software OR Android SDK tools signapk.jar.
+You MUST sign the zip by using the dsixda kitchen or Some APK/Zip Signer softwares or use the Android SDK!
+
 -Finnaly:
-You are done :D , next time after compile your kernel you should remember the way to use AnyKernel :D
+You are done! Flash the update.zip in Custom Recovery (AmonRA Recovery , Clockworkmod Recovery , Teamwin Recovery ....)
